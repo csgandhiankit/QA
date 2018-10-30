@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke_Test" parallel="tests">
+  <test thread-count="3" name="Smoke_Test" parallel="tests">
+    <classes>
+      <class name="com.crm.qa.testcases.LoginPageTest"/>
+      <class name="com.crm.qa.testcases.ContactsPageTest"/>
+      <class name="com.crm.qa.testcases.HomePageTest"/>
+    </classes>
+  </test> <!-- Smoke_Test -->
+</suite> <!-- Smoke_Test -->
